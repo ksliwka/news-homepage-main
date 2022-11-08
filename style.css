@@ -1,0 +1,82 @@
+p {
+  font-size: 15px;
+  color: hsl(236deg, 13%, 42%);
+}
+
+body {
+  background-color: hsl(36deg, 100%, 99%);
+}
+
+#title {
+  color: hsl(240deg, 100%, 5%);
+  font-weight: 700;
+  font-size: 4rem;
+}
+
+#button {
+  color: hsl(36deg, 100%, 99%);
+  background-color: hsl(5deg, 85%, 63%);
+  justify-content: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 700;
+  font-size: 0.8rem;
+  border: none;
+}
+
+#button:hover {
+  background-color: hsl(240deg, 100%, 5%);
+}
+
+#new-background {
+  background-color: hsl(240deg, 100%, 5%);
+}
+
+.new {
+  color: hsl(36deg, 100%, 99%);
+}
+
+.new .header {
+  color: hsl(35deg, 77%, 62%);
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.new-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.new-title:hover {
+  color: hsl(35deg, 77%, 62%);
+}
+
+.num {
+  font-size: 1.5rem;
+  color: hsl(233deg, 8%, 79%);
+  font-weight: 600;
+}
+
+.top-title {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.top-title:hover {
+  color: hsl(233deg, 8%, 79%);
+}
+
+#offcanvas-body .nav-link {
+  color: hsl(240deg, 100%, 5%);
+  cursor: pointer;
+}
+
+#offcanvas-body a:hover {
+  color: hsl(236deg, 13%, 42%);
+}
+
+@media screen and (max-width: 992px) {
+  #title {
+    font-size: 3rem;
+  }
+}/*# sourceMappingURL=style.css.map */
